@@ -1,0 +1,25 @@
+{
+  "name": "calcbot",
+  "version": "1.0.0",
+  "description": "You need to create a bot and get the bot token and put it in a file called `settings.json` which looks like this:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Scott Ellis",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "github:hydrabolt/discord.js",
+    "mathjs": "^8.1.1",
+    "optparse": "^1.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sje397/calcbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sje397/calcbot/issues"
+  },
+  "homepage": "https://github.com/sje397/calcbot#readme"
+}
