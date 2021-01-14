@@ -12,7 +12,7 @@ client.on('message', (msg) => {
 
   try {
     let response = math.evaluate(msg.content).toString();
-    if(response && response.length > 0 && response != msg.content && response != '"' + msg.content + '"') {
+    if(response && response.length > 0 && response != msg.content && '"' + response + '"' != msg.content) {
       msg.channel.send(response);
     }
   }
